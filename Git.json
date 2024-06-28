@@ -1,0 +1,86 @@
+[
+  {
+    "Trigger": ";gb",
+    "Body": "git branch \\n"
+  },
+  {
+    "Trigger": ";gc",
+    "Body": "git checkout "
+  },
+  {
+    "Trigger": ";gl",
+    "Body": "git log --oneline\\n"
+  },
+  {
+    "Trigger": ";gs",
+    "Body": "git status \\n"
+  },
+  {
+    "Trigger": ";gpl",
+    "Body": "git pull \\n"
+  },
+  {
+    "Trigger": ";gps",
+    "Body": "git push \\n"
+  },
+  {
+    "Trigger": ";gd",
+    "Body": "git diff\\n"
+  },
+  {
+    "Trigger": ";gm",
+    "Body": "git commit -m \u0022$0\u0022"
+  },
+  {
+    "Trigger": ";gaa",
+    "Body": "git add . \\n"
+  },
+  {
+    "Trigger": ";gam",
+    "Body": "git commit -am \u0022$0\u0022"
+  },
+  {
+    "Trigger": ";g2-",
+    "Body": "git checkout -\\n"
+  },
+  {
+    "Trigger": ";g2d",
+    "Body": "git checkout develop\\n"
+  },
+  {
+    "Trigger": ";gpd",
+    "Body": "git push origin develop"
+  },
+  {
+    "Trigger": ";gpm",
+    "Body": "git push origin master"
+  },
+  {
+    "Trigger": ";gra",
+    "Body": "git rebase --abort\\n"
+  },
+  {
+    "Trigger": ";grc",
+    "Body": "git reabse --continue\\n"
+  },
+  {
+    "Trigger": ";grd",
+    "Body": "git rebase develop\\n"
+  },
+  {
+    "Trigger": ";grh",
+    "Body": "git reset --hard"
+  },
+  {
+    "Trigger": ";grs",
+    "Body": "git reset --soft"
+  },
+  {
+    "Trigger": ";grb",
+    "Body": "git checkout develop \u0026\u0026 git pull \u0026\u0026 git checkout - \u0026\u0026 git rebase develop"
+  },
+  {
+    "Trigger": ";g1d",
+    "Body": "git diff --shortstat \u0027@{1 day ago}\u0027"
+  }
+]
