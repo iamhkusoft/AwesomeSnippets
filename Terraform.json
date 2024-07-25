@@ -1,0 +1,162 @@
+[
+  {
+    "Trigger": ";ti0",
+    "Body": "terraform init "
+  },
+  {
+    "Trigger": ";tp0",
+    "Body": "terraform plan "
+  },
+  {
+    "Trigger": ";ta",
+    "Body": "terraform apply "
+  },
+  {
+    "Trigger": ";td",
+    "Body": "terraform destroy "
+  },
+  {
+    "Trigger": ";tv0",
+    "Body": "terraform validate "
+  },
+  {
+    "Trigger": ";tf",
+    "Body": "terraform fmt "
+  },
+  {
+    "Trigger": ";ts0",
+    "Body": "terraform show "
+  },
+  {
+    "Trigger": ";ts1",
+    "Body": "terraform state "
+  },
+  {
+    "Trigger": ";ti1",
+    "Body": "terraform import "
+  },
+  {
+    "Trigger": ";tw0",
+    "Body": "terraform workspace "
+  },
+  {
+    "Trigger": ";to",
+    "Body": "terraform output "
+  },
+  {
+    "Trigger": ";tg",
+    "Body": "terraform graph "
+  },
+  {
+    "Trigger": ";tr",
+    "Body": "terraform refresh "
+  },
+  {
+    "Trigger": ";tt",
+    "Body": "terraform taint "
+  },
+  {
+    "Trigger": ";tu",
+    "Body": "terraform untaint "
+  },
+  {
+    "Trigger": ";tp1",
+    "Body": "terraform providers "
+  },
+  {
+    "Trigger": ";tv1",
+    "Body": "terraform version "
+  },
+  {
+    "Trigger": ";tl0",
+    "Body": "terraform login "
+  },
+  {
+    "Trigger": ";tl1",
+    "Body": "terraform logout "
+  },
+  {
+    "Trigger": ";tws0",
+    "Body": "terraform workspace select "
+  },
+  {
+    "Trigger": ";twn",
+    "Body": "terraform workspace new "
+  },
+  {
+    "Trigger": ";twl0",
+    "Body": "terraform workspace list "
+  },
+  {
+    "Trigger": ";twd",
+    "Body": "terraform workspace delete "
+  },
+  {
+    "Trigger": ";tsm",
+    "Body": "terraform state mv "
+  },
+  {
+    "Trigger": ";tc",
+    "Body": "terraform console "
+  },
+  {
+    "Trigger": ";tfu",
+    "Body": "terraform force-unlock "
+  },
+  {
+    "Trigger": ";ti",
+    "Body": "terraform import "
+  },
+  {
+    "Trigger": ";tpo",
+    "Body": "terraform plan -out"
+  },
+  {
+    "Trigger": ";taf",
+    "Body": "terraform apply filename "
+  },
+  {
+    "Trigger": ";tsp0",
+    "Body": "terraform state pull "
+  },
+  {
+    "Trigger": ";tsp1",
+    "Body": "terraform state push "
+  },
+  {
+    "Trigger": ";tsr",
+    "Body": "terraform state rm "
+  },
+  {
+    "Trigger": ";tss",
+    "Body": "terraform state show "
+  },
+  {
+    "Trigger": ";tws1",
+    "Body": "terraform workspace show "
+  },
+  {
+    "Trigger": ";twc",
+    "Body": "terraform workspace copy "
+  },
+  {
+    "Trigger": ";twl1",
+    "Body": "terraform workspace lock "
+  },
+  {
+    "Trigger": ";twu",
+    "Body": "terraform workspace unlock "
+  },
+  {
+    "Trigger": ";tcv",
+    "Body": "terraform console -var"
+  },
+  {
+    "Trigger": ";tiai1",
+    "Body": "terraform import aws_instance.my_instance i-12345678 "
+  },
+  {
+    "Trigger": ";toj",
+    "Body": "terraform output -json "
+  }
+]
