@@ -1,0 +1,192 @@
+[
+  {
+    "Trigger": ";aa0",
+    "Body": "az account ",
+    "Description": "Manages Azure subscriptions and authentication."
+  },
+  {
+    "Trigger": ";aa1",
+    "Body": "az appconfig ",
+    "Description": "Manages Azure App Configuration stores."
+  },
+  {
+    "Trigger": ";aw",
+    "Body": "az webapp ",
+    "Description": "Manages Azure App Service web apps."
+  },
+  {
+    "Trigger": ";af",
+    "Body": "az functionapp ",
+    "Description": "Manages Azure Functions (serverless compute)."
+  },
+  {
+    "Trigger": ";aa2",
+    "Body": "az appservice ",
+    "Description": "Manages App Service plans, deployments, and more."
+  },
+  {
+    "Trigger": ";ab0",
+    "Body": "az batchai ",
+    "Description": "Manages Batch AI resources."
+  },
+  {
+    "Trigger": ";ab1",
+    "Body": "az batch ",
+    "Description": "Manages Azure Batch accounts and jobs."
+  },
+  {
+    "Trigger": ";ac0",
+    "Body": "az consumption ",
+    "Description": "Manages Azure consumption data."
+  },
+  {
+    "Trigger": ";ab2",
+    "Body": "az bot ",
+    "Description": "Manages Azure Bot Service bots."
+  },
+  {
+    "Trigger": ";ac1",
+    "Body": "az cdn ",
+    "Description": "Manages Azure Content Delivery Network profiles and endpoints."
+  },
+  {
+    "Trigger": ";ac2",
+    "Body": "az cognitiveservices ",
+    "Description": "Manages Azure Cognitive Services accounts."
+  },
+  {
+    "Trigger": ";ac3",
+    "Body": "az cosmosdb ",
+    "Description": "Interacts with Azure Cosmos DB (globally distributed database service)."
+  },
+  {
+    "Trigger": ";ad0",
+    "Body": "az dla ",
+    "Description": "Manages Data Lake Analytics accounts, jobs, and catalogs."
+  },
+  {
+    "Trigger": ";ad1",
+    "Body": "az dls ",
+    "Description": "Manages Data Lake Store accounts and filesystems."
+  },
+  {
+    "Trigger": ";ad2",
+    "Body": "az dms ",
+    "Description": "Manages Azure Database Migration Service."
+  },
+  {
+    "Trigger": ";ae0",
+    "Body": "az eventgrid ",
+    "Description": "Manages Azure Event Grid topics, domains, and system topics."
+  },
+  {
+    "Trigger": ";ae1",
+    "Body": "az eventhubs ",
+    "Description": "Manages Azure Event Hubs namespaces, event hubs, and consumer groups."
+  },
+  {
+    "Trigger": ";ah",
+    "Body": "az hdinsight ",
+    "Description": "Manages HDInsight clusters."
+  },
+  {
+    "Trigger": ";ai",
+    "Body": "az iotcentral ",
+    "Description": "Manages Azure IoT Central applications."
+  },
+  {
+    "Trigger": ";aih",
+    "Body": "az iot hub ",
+    "Description": "Manages Azure IoT Hub resources."
+  },
+  {
+    "Trigger": ";ak",
+    "Body": "az keyvault ",
+    "Description": "Interacts with Azure Key Vault (securely stores and manages secrets)."
+  },
+  {
+    "Trigger": ";aa3",
+    "Body": "az aks ",
+    "Description": "Manages Azure Kubernetes Service clusters."
+  },
+  {
+    "Trigger": ";al0",
+    "Body": "az logic ",
+    "Description": "Manages Azure Logic Apps workflows."
+  },
+  {
+    "Trigger": ";am0",
+    "Body": "az ml ",
+    "Description": "Manages Azure Machine Learning workspaces, experiments, and models."
+  },
+  {
+    "Trigger": ";am1",
+    "Body": "az maps ",
+    "Description": "Manages Azure Maps accounts and services."
+  },
+  {
+    "Trigger": ";am2",
+    "Body": "az monitor ",
+    "Description": "Manages Azure Monitor resources."
+  },
+  {
+    "Trigger": ";an",
+    "Body": "az network ",
+    "Description": "Manages Azure networking resources (virtual networks, subnets, IP esses, etc.)."
+  },
+  {
+    "Trigger": ";ap",
+    "Body": "az policyinsights ",
+    "Description": "Manages Azure Policy Insights."
+  },
+  {
+    "Trigger": ";ag",
+    "Body": "az graph ",
+    "Description": "Manages Azure Resource Graph queries."
+  },
+  {
+    "Trigger": ";al1",
+    "Body": "az lock ",
+    "Description": "Manages Azure resource locks."
+  },
+  {
+    "Trigger": ";ar",
+    "Body": "az role ",
+    "Description": "Manages Azure RBAC roles and assignments."
+  },
+  {
+    "Trigger": ";as0",
+    "Body": "az search ",
+    "Description": "Manages Azure Search services."
+  },
+  {
+    "Trigger": ";as1",
+    "Body": "az servicebus ",
+    "Description": "Manages Azure Service Bus namespaces, queues, and topics."
+  },
+  {
+    "Trigger": ";as2",
+    "Body": "az sql ",
+    "Description": "Manages Azure SQL databases, servers, and elastic pools."
+  },
+  {
+    "Trigger": ";as3",
+    "Body": "az storage ",
+    "Description": "Interacts with Azure Storage accounts (blobs, files, queues, tables)."
+  },
+  {
+    "Trigger": ";as4",
+    "Body": "az synapse ",
+    "Description": "Manages Azure Synapse Analytics workspaces, pipelines, and datasets."
+  },
+  {
+    "Trigger": ";av",
+    "Body": "az vm ",
+    "Description": "Creates, manages, and interacts with Azure virtual machines."
+  },
+  {
+    "Trigger": ";awc",
+    "Body": "az webapp config ",
+    "Description": "Manages Azure App Service web app configurations."
+  }
+]
