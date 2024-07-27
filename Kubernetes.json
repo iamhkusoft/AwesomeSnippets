@@ -1,0 +1,62 @@
+[
+  {
+    "Trigger": ";kab",
+    "Body": "kubectl autocomplete BASH ",
+    "Description": "Set up autocomplete in Bash (requires bash-completion package)."
+  },
+  {
+    "Trigger": ";kcv",
+    "Body": "kubectl config view ",
+    "Description": "Show merged kubeconfig settings."
+  },
+  {
+    "Trigger": ";kcgc",
+    "Body": "kubectl config get-contexts ",
+    "Description": "Display a list of available contexts."
+  },
+  {
+    "Trigger": ";kccc",
+    "Body": "kubectl config current-context ",
+    "Description": "Display the current context."
+  },
+  {
+    "Trigger": ";kcucm",
+    "Body": "kubectl config use-context my-cluster-name ",
+    "Description": "Set the default context to my-cluster-name."
+  },
+  {
+    "Trigger": ";kgs",
+    "Body": "kubectl get services ",
+    "Description": "List all services in the namespace."
+  },
+  {
+    "Trigger": ";kgpan",
+    "Body": "kubectl get pods --all-namespaces ",
+    "Description": "List all pods in all namespaces."
+  },
+  {
+    "Trigger": ";kgpow",
+    "Body": "kubectl get pods -o wide ",
+    "Description": "List all pods in the current namespace with additional details."
+  },
+  {
+    "Trigger": ";kdnmn",
+    "Body": "kubectl describe nodes my-node ",
+    "Description": "Describe details about a specific node."
+  },
+  {
+    "Trigger": ";kgd",
+    "Body": "kubectl get deployments ",
+    "Description": "List all deployments."
+  },
+  {
+    "Trigger": ";kgpmp",
+    "Body": "kubectl get pod my-pod -o yaml ",
+    "Description": "Get a pod\u2019s YAML configuration."
+  },
+  {
+    "Trigger": ";kdpmp",
+    "Body": "kubectl describe pods my-pod ",
+    "Description": "Describe details about a specific pod."
+  }
+]
