@@ -1,0 +1,122 @@
+[
+  {
+    "Trigger": ";gi0",
+    "Body": "gcloud init ",
+    "Description": "Initialize, authorize, and configure the gcloud CLI."
+  },
+  {
+    "Trigger": ";gv",
+    "Body": "gcloud version ",
+    "Description": "Display version and installed components."
+  },
+  {
+    "Trigger": ";gci",
+    "Body": "gcloud components install ",
+    "Description": "Install specific components."
+  },
+  {
+    "Trigger": ";gcu",
+    "Body": "gcloud components update ",
+    "Description": "Update your gcloud CLI to the latest version."
+  },
+  {
+    "Trigger": ";gcsp",
+    "Body": "gcloud config set project ",
+    "Description": "Set a default Google Cloud project to work on."
+  },
+  {
+    "Trigger": ";gi1",
+    "Body": "gcloud info ",
+    "Description": "Display current gcloud CLI environment details."
+  },
+  {
+    "Trigger": ";gh",
+    "Body": "gcloud help ",
+    "Description": "Search the gcloud CLI reference documents for specific terms."
+  },
+  {
+    "Trigger": ";gf",
+    "Body": "gcloud feedback ",
+    "Description": "Provide feedback to the gcloud CLI team."
+  },
+  {
+    "Trigger": ";gcs0",
+    "Body": "gcloud config set ",
+    "Description": "Define a property (like compute/zone) for the current configuration."
+  },
+  {
+    "Trigger": ";gcg",
+    "Body": "gcloud config get ",
+    "Description": "Fetch the value of a gcloud CLI property."
+  },
+  {
+    "Trigger": ";gcl",
+    "Body": "gcloud config list ",
+    "Description": "Display all the properties for the current configuration."
+  },
+  {
+    "Trigger": ";gccc",
+    "Body": "gcloud config configurations create ",
+    "Description": "Create a new named configuration."
+  },
+  {
+    "Trigger": ";gccl",
+    "Body": "gcloud config configurations list ",
+    "Description": "Display a list of all available configurations."
+  },
+  {
+    "Trigger": ";gcca",
+    "Body": "gcloud config configurations activate ",
+    "Description": "Switch to an existing named configuration."
+  },
+  {
+    "Trigger": ";gal0",
+    "Body": "gcloud auth login ",
+    "Description": "Authorize Google Cloud access for the gcloud CLI with user dentials."
+  },
+  {
+    "Trigger": ";gaasa",
+    "Body": "gcloud auth activate-service-account ",
+    "Description": "Authorize Google Cloud access with service ount credentials."
+  },
+  {
+    "Trigger": ";gaad",
+    "Body": "gcloud auth application-default ",
+    "Description": "Manage Application Default Credentials (ADC) for ud Client Libraries."
+  },
+  {
+    "Trigger": ";gal1",
+    "Body": "gcloud auth list ",
+    "Description": "List all credentialed accounts."
+  },
+  {
+    "Trigger": ";gapat",
+    "Body": "gcloud auth print-access-token ",
+    "Description": "Display the current account\u0027s access token."
+  },
+  {
+    "Trigger": ";gar",
+    "Body": "gcloud auth revoke ",
+    "Description": "Remove access credentials for an account."
+  },
+  {
+    "Trigger": ";gpaip",
+    "Body": "gcloud projects add-iam-policy-binding ",
+    "Description": "Add an IAM policy binding to a specified ject."
+  },
+  {
+    "Trigger": ";gilgr",
+    "Body": "gcloud iam list-grantable-roles ",
+    "Description": "List IAM grantable roles for a resource."
+  },
+  {
+    "Trigger": ";girc",
+    "Body": "gcloud iam roles create ",
+    "Description": "Create a custom role for a project or organization."
+  },
+  {
+    "Trigger": ";gisac",
+    "Body": "gcloud iam service-accounts create ",
+    "Description": "Create a service account for a project."
+  }
+]
