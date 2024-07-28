@@ -1,0 +1,52 @@
+[
+  {
+    "Trigger": ";wi",
+    "Body": "winget install  ",
+    "Description": "Install a package."
+  },
+  {
+    "Trigger": ";wu0",
+    "Body": "winget upgrade  ",
+    "Description": "Upgrade a package."
+  },
+  {
+    "Trigger": ";wu1",
+    "Body": "winget uninstall  ",
+    "Description": "Uninstall a package."
+  },
+  {
+    "Trigger": ";wl",
+    "Body": "winget list\u0060 ",
+    "Description": "List installed packages."
+  },
+  {
+    "Trigger": ";ws0",
+    "Body": "winget search  ",
+    "Description": "Search for a package."
+  },
+  {
+    "Trigger": ";ws1",
+    "Body": "winget show  ",
+    "Description": "Show information about a package."
+  },
+  {
+    "Trigger": ";wsa\u003C\u003C",
+    "Body": "winget source add \u003Cname\u003E \u003Curl\u003E\u0060 ",
+    "Description": "Add a source."
+  },
+  {
+    "Trigger": ";wsu",
+    "Body": "winget source update\u0060 ",
+    "Description": "Update sources."
+  },
+  {
+    "Trigger": ";ws2",
+    "Body": "winget settings\u0060 ",
+    "Description": "Open settings file."
+  },
+  {
+    "Trigger": ";wf",
+    "Body": "winget features\u0060 ",
+    "Description": "List experimental features."
+  }
+]
