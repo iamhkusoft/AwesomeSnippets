@@ -1,0 +1,52 @@
+[
+  {
+    "Trigger": ";ci",
+    "Body": "choco install  ",
+    "Description": "Install a package."
+  },
+  {
+    "Trigger": ";cu0",
+    "Body": "choco upgrade  ",
+    "Description": "Upgrade a package."
+  },
+  {
+    "Trigger": ";cu1",
+    "Body": "choco uninstall  ",
+    "Description": "Uninstall a package."
+  },
+  {
+    "Trigger": ";cllo",
+    "Body": "choco list --local-only\u0060 ",
+    "Description": "List installed packages."
+  },
+  {
+    "Trigger": ";cs",
+    "Body": "choco search  ",
+    "Description": "Search for a package."
+  },
+  {
+    "Trigger": ";co",
+    "Body": "choco outdated\u0060 ",
+    "Description": "List outdated packages."
+  },
+  {
+    "Trigger": ";cpan",
+    "Body": "choco pin add -n",
+    "Description": "Pin a package to prevent updates."
+  },
+  {
+    "Trigger": ";cfen",
+    "Body": "choco feature enable -n",
+    "Description": "Enable a feature."
+  },
+  {
+    "Trigger": ";cfdn",
+    "Body": "choco feature disable -n",
+    "Description": "Disable a feature."
+  },
+  {
+    "Trigger": ";ccs\u003C",
+    "Body": "choco config set \u003Cname\u003E",
+    "Description": "Set a configuration value."
+  }
+]

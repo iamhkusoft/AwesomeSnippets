@@ -1,0 +1,52 @@
+[
+  {
+    "Trigger": ";bi0",
+    "Body": "brew install  ",
+    "Description": "Install a formula."
+  },
+  {
+    "Trigger": ";bu0",
+    "Body": "brew upgrade  ",
+    "Description": "Upgrade a formula."
+  },
+  {
+    "Trigger": ";bu1",
+    "Body": "brew uninstall  ",
+    "Description": "Uninstall a formula."
+  },
+  {
+    "Trigger": ";bl",
+    "Body": "brew list\u0060 ",
+    "Description": "List installed formulae."
+  },
+  {
+    "Trigger": ";bs\u003C",
+    "Body": "brew search \u003Ctext\u003E\u0060 ",
+    "Description": "Search for a formula."
+  },
+  {
+    "Trigger": ";bo",
+    "Body": "brew outdated\u0060 ",
+    "Description": "List outdated formulae."
+  },
+  {
+    "Trigger": ";bc",
+    "Body": "brew cleanup\u0060 ",
+    "Description": "Remove old versions of installed formulae."
+  },
+  {
+    "Trigger": ";bd",
+    "Body": "brew doctor\u0060 ",
+    "Description": "Check your system for potential problems."
+  },
+  {
+    "Trigger": ";bi1",
+    "Body": "brew info  ",
+    "Description": "Display information about a formula."
+  },
+  {
+    "Trigger": ";bt",
+    "Body": "brew tap  ",
+    "Description": "Add a tap."
+  }
+]
