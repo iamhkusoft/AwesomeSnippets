@@ -1,0 +1,52 @@
+[
+  {
+    "Trigger": ";sps0",
+    "Body": "sudo pacman -S  ",
+    "Description": "Install a package."
+  },
+  {
+    "Trigger": ";spsy",
+    "Body": "sudo pacman -Syu ",
+    "Description": "Update the system."
+  },
+  {
+    "Trigger": ";spr",
+    "Body": "sudo pacman -R  ",
+    "Description": "Remove a package."
+  },
+  {
+    "Trigger": ";spq0",
+    "Body": "sudo pacman -Q ",
+    "Description": "List installed packages."
+  },
+  {
+    "Trigger": ";spss",
+    "Body": "sudo pacman -Ss  ",
+    "Description": "Search for a package."
+  },
+  {
+    "Trigger": ";spsi",
+    "Body": "sudo pacman -Si  ",
+    "Description": "Show information about a package."
+  },
+  {
+    "Trigger": ";spsc",
+    "Body": "sudo pacman -Sc ",
+    "Description": "Clean up cached files."
+  },
+  {
+    "Trigger": ";spqu",
+    "Body": "sudo pacman -Qu ",
+    "Description": "List outdated packages."
+  },
+  {
+    "Trigger": ";spsa",
+    "Body": "sudo pacman -Scc ",
+    "Description": "Remove all cached files."
+  },
+  {
+    "Trigger": ";spu",
+    "Body": "sudo pacman -U ",
+    "Description": "Install a package from a file."
+  }
+]
