@@ -1,86 +1,96 @@
 [
   {
-    "Trigger": ";gb",
-    "Body": "git branch \\n"
+    "Trigger": ";g1d",
+    "Body": "git diff --shortstat \u0027@{1 day ago}\u0027\\n"
   },
   {
-    "Trigger": ";gc",
-    "Body": "git checkout "
-  },
-  {
-    "Trigger": ";gl",
-    "Body": "git log --oneline\\n"
-  },
-  {
-    "Trigger": ";gs",
-    "Body": "git status \\n"
-  },
-  {
-    "Trigger": ";gpl",
-    "Body": "git pull \\n"
-  },
-  {
-    "Trigger": ";gps",
-    "Body": "git push \\n"
+    "Trigger": "",
+    "Body": "git log --oneline",
+    "Description": "Show commit logs."
   },
   {
     "Trigger": ";gd",
-    "Body": "git diff\\n"
+    "Body": "git diff \\n",
+    "Description": "Show changes between commits, commit and working tree, etc."
   },
   {
-    "Trigger": ";gm",
-    "Body": "git commit -m \u0022$0\u0022"
+    "Trigger": ";grd",
+    "Body": "git rebase develop"
   },
   {
-    "Trigger": ";gaa",
-    "Body": "git add . \\n"
+    "Trigger": ";grc",
+    "Body": "git reabse --continue"
   },
   {
-    "Trigger": ";gam",
-    "Body": "git commit -am \u0022$0\u0022"
-  },
-  {
-    "Trigger": ";g2-",
-    "Body": "git checkout -\\n"
-  },
-  {
-    "Trigger": ";g2d",
-    "Body": "git checkout develop\\n"
+    "Trigger": ";gra",
+    "Body": "git reabse --abort"
   },
   {
     "Trigger": ";gpd",
     "Body": "git push origin develop"
   },
   {
-    "Trigger": ";gpm",
-    "Body": "git push origin master"
+    "Trigger": ";gps",
+    "Body": "git push \\n"
   },
   {
-    "Trigger": ";gra",
-    "Body": "git rebase --abort\\n"
-  },
-  {
-    "Trigger": ";grc",
-    "Body": "git reabse --continue\\n"
-  },
-  {
-    "Trigger": ";grd",
-    "Body": "git rebase develop\\n"
-  },
-  {
-    "Trigger": ";grh",
-    "Body": "git reset --hard"
+    "Trigger": ";g2d",
+    "Body": "git checkout develop"
   },
   {
     "Trigger": ";grs",
     "Body": "git reset --soft"
   },
   {
+    "Trigger": ";grh",
+    "Body": "git reset --hard"
+  },
+  {
+    "Trigger": ";g2-",
+    "Body": "git checkout -"
+  },
+  {
+    "Trigger": ";gam",
+    "Body": "git commit -am \u0022$0\u0022"
+  },
+  {
+    "Trigger": ";gaa",
+    "Body": "git add . \\n"
+  },
+  {
+    "Trigger": ";gc",
+    "Body": "git checkout ",
+    "Description": "Switch branches or restore working tree files."
+  },
+  {
     "Trigger": ";grb",
     "Body": "git checkout develop \u0026\u0026 git pull \u0026\u0026 git checkout - \u0026\u0026 git rebase develop"
   },
   {
-    "Trigger": ";g1d",
-    "Body": "git diff --shortstat \u0027@{1 day ago}\u0027"
+    "Trigger": ";gb",
+    "Body": "git branch \\n",
+    "Description": "List, create, or delete branches."
+  },
+  {
+    "Trigger": ";gsh",
+    "Body": "git show ",
+    "Description": "Show various types of objects."
+  },
+  {
+    "Trigger": ";grv",
+    "Body": "git remote -v\\n"
+  },
+  {
+    "Trigger": ";gm",
+    "Body": "git merge ",
+    "Description": "Join two or more development histories together."
+  },
+  {
+    "Trigger": ";gs",
+    "Body": "git status\\n"
+  },
+  {
+    "Trigger": ";gl1",
+    "Body": "git log --oneline\\n"
   }
 ]
