@@ -1,0 +1,47 @@
+[
+  {
+    "Trigger": ";bis",
+    "Body": "brew install ",
+    "Description": "Install a formula"
+  },
+  {
+    "Trigger": ";bu0",
+    "Body": "brew uninstall ",
+    "Description": "Uninstall a formula"
+  },
+  {
+    "Trigger": ";bud",
+    "Body": "brew update ",
+    "Description": "Fetch the newest version of Homebrew and all formulae"
+  },
+  {
+    "Trigger": ";bug",
+    "Body": "brew upgrade ",
+    "Description": "Upgrade outdated casks and formulae"
+  },
+  {
+    "Trigger": ";bl",
+    "Body": "brew list ",
+    "Description": "List all installed formulae"
+  },
+  {
+    "Trigger": ";bs",
+    "Body": "brew search ",
+    "Description": "Search for a formula"
+  },
+  {
+    "Trigger": ";bif",
+    "Body": "brew info ",
+    "Description": "Display information about a formula"
+  },
+  {
+    "Trigger": ";bc",
+    "Body": "brew cleanup ",
+    "Description": "Remove stale lock files and outdated downloads"
+  },
+  {
+    "Trigger": ";bd",
+    "Body": "brew doctor ",
+    "Description": "Check your system for potential problems"
+  }
+]
