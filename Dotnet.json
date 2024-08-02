@@ -1,0 +1,137 @@
+[ 
+  {
+    "Trigger": ";dne",
+    "Body": "dotnet new ",
+    "Description": "Creates a new project, configuration file, or solution based on the specified template."
+  },
+  {
+    "Trigger": ";db",
+    "Body": "dotnet build ",
+    "Description": "Builds a project and all of its dependencies."
+  },
+  {
+    "Trigger": ";dru",
+    "Body": "dotnet run ",
+    "Description": "Runs source code without any explicit compile or launch commands."
+  },
+  {
+    "Trigger": ";dts",
+    "Body": "dotnet test ",
+    "Description": "Runs unit tests using the test runner specified in the project."
+  },
+  {
+    "Trigger": ";dpub",
+    "Body": "dotnet publish ",
+    "Description": "Packs the application and its dependencies into a folder for deployment to a hosting system."
+  },
+  {
+    "Trigger": ";dpk",
+    "Body": "dotnet pack ",
+    "Description": "Creates a NuGet package of your code."
+  },
+  {
+    "Trigger": ";drs",
+    "Body": "dotnet restore ",
+    "Description": "Restores the dependencies and tools of a project."
+  },
+  {
+    "Trigger": ";dc",
+    "Body": "dotnet clean ",
+    "Description": "Cleans the output of the previous build."
+  },
+  {
+    "Trigger": ";ds",
+    "Body": "dotnet sln ",
+    "Description": "Modifies a .NET solution file."
+  },
+  {
+    "Trigger": ";da",
+    "Body": "dotnet add ",
+    "Description": "Adds a package or reference to a .NET project."
+  },
+  {
+    "Trigger": ";drm",
+    "Body": "dotnet remove ",
+    "Description": "Removes a package or reference from a .NET project."
+  },
+  {
+    "Trigger": ";dl",
+    "Body": "dotnet list ",
+    "Description": "Lists project and solution references, installed SDKs, and runtimes."
+  },
+  {
+    "Trigger": ";dng",
+    "Body": "dotnet nuget ",
+    "Description": "Provides additional NuGet commands."
+  },
+  {
+    "Trigger": ";dto",
+    "Body": "dotnet tool ",
+    "Description": "Installs, uninstalls, and manages .NET tools."
+  },
+  {
+    "Trigger": ";dfm",
+    "Body": "dotnet format ",
+    "Description": "Formats code to match the .NET coding style."
+  },
+  {
+    "Trigger": ";dmg",
+    "Body": "dotnet migrate ",
+    "Description": "Migrates a project.json-based project to a .csproj-based project."
+  },
+  {
+    "Trigger": ";dmb",
+    "Body": "dotnet msbuild ",
+    "Description": "Provides access to the MSBuild command-line interface."
+  },
+  {
+    "Trigger": ";dfs",
+    "Body": "dotnet fsi ",
+    "Description": "Starts F# Interactive."
+  },
+  {
+    "Trigger": ";dw",
+    "Body": "dotnet watch ",
+    "Description": "Runs a .NET Core CLI command when source files change."
+  },
+  {
+    "Trigger": ";ddc",
+    "Body": "dotnet dev-certs ",
+    "Description": "Manages HTTPS development certificates."
+  },
+  {
+    "Trigger": ";dus",
+    "Body": "dotnet user-secrets ",
+    "Description": "Manages user secrets for a project."
+  },
+  {
+    "Trigger": ";dsc",
+    "Body": "dotnet sql-cache ",
+    "Description": "Creates and manages SQL Server-based distributed cache."
+  },
+  {
+    "Trigger": ";de",
+    "Body": "dotnet ef ",
+    "Description": "Entity Framework Core CLI commands."
+  },
+  {
+    "Trigger": ";di",
+    "Body": "dotnet --info ",
+    "Description": "Prints out detailed information about the .NET installation and the machine environment."
+  },
+  {
+    "Trigger": ";dv",
+    "Body": "dotnet --version ",
+    "Description": "Prints out the version of the .NET SDK used by dotnet commands."
+  },
+  {
+    "Trigger": ";dlr",
+    "Body": "dotnet --list-runtimes ",
+    "Description": "Prints out a list of the installed .NET runtimes."
+  },
+  {
+    "Trigger": ";dls",
+    "Body": "dotnet --list-sdks ",
+    "Description": "Prints out a list of the installed .NET SDKs."
+  }
+]
