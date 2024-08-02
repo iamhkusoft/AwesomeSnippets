@@ -1,0 +1,212 @@
+[
+  {
+    "Trigger": ";dts",
+    "Body": "dotnet test ",
+    "Description": "Runs unit tests using the test runner specified in the project."
+  },
+  {
+    "Trigger": ";dpub",
+    "Body": "dotnet publish ",
+    "Description": "Packs the application and its dependencies into a folder for deployment to a hosting system."
+  },
+  {
+    "Trigger": ";dpk",
+    "Body": "dotnet pack ",
+    "Description": "Creates a NuGet package of your code."
+  },
+  {
+    "Trigger": ";drs",
+    "Body": "dotnet restore ",
+    "Description": "Restores the dependencies and tools of a project."
+  },
+  {
+    "Trigger": ";dc",
+    "Body": "dotnet clean ",
+    "Description": "Cleans the output of the previous build."
+  },
+  {
+    "Trigger": ";ds",
+    "Body": "dotnet sln ",
+    "Description": "Modifies a .NET solution file."
+  },
+  {
+    "Trigger": ";da",
+    "Body": "dotnet add ",
+    "Description": "Adds a package or reference to a .NET project."
+  },
+  {
+    "Trigger": ";drm",
+    "Body": "dotnet remove ",
+    "Description": "Removes a package or reference from a .NET project."
+  },
+  {
+    "Trigger": ";dl",
+    "Body": "dotnet list ",
+    "Description": "Lists project and solution references, installed SDKs, and runtimes."
+  },
+  {
+    "Trigger": ";dto",
+    "Body": "dotnet tool ",
+    "Description": "Installs, uninstalls, and manages .NET tools."
+  },
+  {
+    "Trigger": ";dfm",
+    "Body": "dotnet format ",
+    "Description": "Formats code to match the .NET coding style."
+  },
+  {
+    "Trigger": ";dmg",
+    "Body": "dotnet migrate ",
+    "Description": "Migrates a project.json-based project to a .csproj-based project."
+  },
+  {
+    "Trigger": ";dmb",
+    "Body": "dotnet msbuild ",
+    "Description": "Provides access to the MSBuild command-line interface."
+  },
+  {
+    "Trigger": ";dfs",
+    "Body": "dotnet fsi ",
+    "Description": "Starts F# Interactive."
+  },
+  {
+    "Trigger": ";dw",
+    "Body": "dotnet watch ",
+    "Description": "Runs a .NET Core CLI command when source files change."
+  },
+  {
+    "Trigger": ";ddc",
+    "Body": "dotnet dev-certs ",
+    "Description": "Manages HTTPS development certificates."
+  },
+  {
+    "Trigger": ";dus",
+    "Body": "dotnet user-secrets ",
+    "Description": "Manages user secrets for a project."
+  },
+  {
+    "Trigger": ";dsc",
+    "Body": "dotnet sql-cache ",
+    "Description": "Creates and manages SQL Server-based distributed cache."
+  },
+  {
+    "Trigger": ";de",
+    "Body": "dotnet ef ",
+    "Description": "Entity Framework Core CLI commands."
+  },
+  {
+    "Trigger": ";di",
+    "Body": "dotnet --info ",
+    "Description": "Prints out detailed information about the .NET installation and the machine environment."
+  },
+  {
+    "Trigger": ";dv",
+    "Body": "dotnet --version ",
+    "Description": "Prints out the version of the .NET SDK used by dotnet commands."
+  },
+  {
+    "Trigger": ";dlr",
+    "Body": "dotnet --list-runtimes ",
+    "Description": "Prints out a list of the installed .NET runtimes."
+  },
+  {
+    "Trigger": ";dls",
+    "Body": "dotnet --list-sdks ",
+    "Description": "Prints out a list of the installed .NET SDKs."
+  },
+  {
+    "Trigger": ";na",
+    "Body": "nuget add ",
+    "Description": "Adds a package to a non-HTTP package source."
+  },
+  {
+    "Trigger": ";nc",
+    "Body": "nuget config ",
+    "Description": "Gets or sets NuGet configuration values."
+  },
+  {
+    "Trigger": ";nd",
+    "Body": "nuget delete ",
+    "Description": "Deletes or unlists a package from a package source."
+  },
+  {
+    "Trigger": ";nh",
+    "Body": "nuget help ",
+    "Description": "Displays help information or help for a command."
+  },
+  {
+    "Trigger": ";nin",
+    "Body": "nuget init ",
+    "Description": "Adds all the packages from a folder to a feed."
+  },
+  {
+    "Trigger": ";nis",
+    "Body": "nuget install ",
+    "Description": "Installs a package using the specified sources."
+  },
+  {
+    "Trigger": ";nls",
+    "Body": "nuget list ",
+    "Description": "Displays a list of packages from a given source."
+  },
+  {
+    "Trigger": ";nlo",
+    "Body": "nuget locals ",
+    "Description": "Clears or lists local NuGet resources such as http requests cache, packages cache, nuget and machine-wide global packages folder."
+  },
+  {
+    "Trigger": ";npk",
+    "Body": "nuget pack ",
+    "Description": "Creates a NuGet package based on the specified .nuspec or project file."
+  },
+  {
+    "Trigger": ";nps",
+    "Body": "nuget push ",
+    "Description": "Publishes a package to a package source."
+  },
+  {
+    "Trigger": ";nr",
+    "Body": "nuget restore ",
+    "Description": "Restores all packages referenced by the package management format in use."
+  },
+  {
+    "Trigger": ";nsc",
+    "Body": "nuget search ",
+    "Description": "Searches for packages from a package source."
+  },
+  {
+    "Trigger": ";nsk",
+    "Body": "nuget setapikey ",
+    "Description": "Saves an API key for a given server URL."
+  },
+  {
+    "Trigger": ";nsi",
+    "Body": "nuget sign ",
+    "Description": "Applies a signature to a package."
+  },
+  {
+    "Trigger": ";nsrc",
+    "Body": "nuget sources ",
+    "Description": "Manages the list of sources where NuGet looks for packages."
+  },
+  {
+    "Trigger": ";nsp",
+    "Body": "nuget spec ",
+    "Description": "Generates a .nuspec file for a new package."
+  },
+  {
+    "Trigger": ";nu",
+    "Body": "nuget update ",
+    "Description": "Updates a package to a newer version."
+  },
+  {
+    "Trigger": ";nv",
+    "Body": "nuget verify ",
+    "Description": "Verifies a signed package."
+  },
+  {
+    "Trigger": ";nts",
+    "Body": "nuget trusted-signers ",
+    "Description": "Manages the list of trusted signers."
+  }
+]
